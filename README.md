@@ -1,7 +1,5 @@
 <img src="assets/hero.svg" width="100%">
 
-<img src="assets/contact.svg" width="100%">
-
 <img src="assets/rule.svg" width="100%">
 
 ### // PROOF
