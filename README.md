@@ -12,7 +12,7 @@
 
 ### // OPERATING LOOP
 
-<p align="center">Find the problem. Invent the fix. Ship to production. File the patent. Repeat.</p>
+<img src="assets/loop.svg" width="100%">
 
 <img src="assets/rule.svg" width="100%">
 
@@ -25,11 +25,31 @@
 
 <img src="assets/rule.svg" width="100%">
 
+### // PATENT WALL
+
+<img src="assets/patents.svg" width="100%">
+
+<img src="assets/rule.svg" width="100%">
+
+### // RECORD
+
+<img src="assets/record.svg" width="100%">
+
+<img src="assets/rule.svg" width="100%">
+
+### // DOCTRINE
+
+<img src="assets/doctrine.svg" width="100%">
+
+<img src="assets/rule.svg" width="100%">
+
 ### // INSTRUMENTS
 
 ```
-intelligence   pytorch · mlx · transformers · lora · 4-bit quantization · catboost · xgboost · lightgbm · shap · optuna
-systems        kubernetes · docker · postgres · supabase · node · vercel · air-gapped deployment
+intelligence   pytorch · mlx · transformers · lora · 4-bit quantization
+               catboost · xgboost · lightgbm · shap · optuna
+systems        kubernetes · docker · postgres · supabase · node · vercel
+               air-gapped deployment
 interface      swift · swiftui · metal · react · next.js · typescript
 discipline     python · c/c++ · sql · bash · git
 ```
@@ -39,9 +59,5 @@ discipline     python · c/c++ · sql · bash · git
 ### // TELEMETRY
 
 <img src="assets/stats.svg" width="100%">
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshworldwide&bg_color=0E0E10&color=8E8B85&line=C9A876&point=F5F5F2&hide_border=true&area=false&custom_title=Shipping%20cadence" alt="Shipping cadence">
-</p>
 
 <img src="assets/footer.svg" width="100%">

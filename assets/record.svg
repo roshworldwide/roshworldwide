@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 340" width="1600" height="340" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfTit"><stop offset="0" stop-color="#A8A29A" stop-opacity="0.08"/><stop offset="1" stop-color="#A8A29A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="barLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A876" stop-opacity="0.25"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.95"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.25"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1600" height="340" fill="#0E0E10"/>
+  <g fill="#F5F5F2">
+    <circle cx="60" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="60" cy="300" r="1" opacity="0.045"><animate attributeName="opacity" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.045;0.07;0.045" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" additive="sum" calcMode="spline" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;8,0;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="300" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="800" cy="30" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  </g>
+  <line x1="140" y1="170" x2="1460" y2="170" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1" stroke-dasharray="1320" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" calcMode="spline" dur="1.4s" fill="freeze" keyTimes="0;1" values="1320;0" keySplines="0.32 0.72 0 1"/></line>
+  <circle cx="140" cy="170" r="3" fill="#C9A876" opacity="0.7"><animate attributeName="cx" calcMode="spline" dur="15s" repeatCount="indefinite" keyTimes="0;0.4;1" values="140;1460;1460" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animate attributeName="opacity" calcMode="spline" dur="15s" repeatCount="indefinite" keyTimes="0;0.4;0.4;1" values="0.7;0.7;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <text x="140" y="124" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">2023</text>
+  <circle cx="140" cy="170" r="6" fill="#C9A876"><animate attributeName="r" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.100;0.180;1" values="0;0;6;6" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <circle cx="140" cy="170" r="9" fill="none" stroke="#F5F5F2" stroke-opacity="0.5" stroke-width="1"></circle>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.200;0.300;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+    <text x="140" y="214" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F2">Manipal Institute of Technology</text>
+    <text x="140" y="236" text-anchor="middle" font-size="15" font-weight="400" fill="#C7C5C0">CS, Class of '27</text>
+  </g>
+  <text x="470" y="124" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">2025</text>
+  <circle cx="470" cy="170" r="6" fill="#C9A876"><animate attributeName="r" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.250;0.330;1" values="0;0;6;6" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <circle cx="470" cy="170" r="9" fill="none" stroke="#F5F5F2" stroke-opacity="0.5" stroke-width="1"></circle>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.350;0.450;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+    <text x="470" y="214" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F2">Lenn Chartered · FinTech LLMs</text>
+    <text x="470" y="236" text-anchor="middle" font-size="15" font-weight="400" fill="#C7C5C0">query resolution cut 90%</text>
+  </g>
+  <text x="800" y="124" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">2026 Q1</text>
+  <circle cx="800" cy="170" r="6" fill="#C9A876"><animate attributeName="r" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.400;0.480;1" values="0;0;6;6" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <circle cx="800" cy="170" r="9" fill="none" stroke="#F5F5F2" stroke-opacity="0.5" stroke-width="1"></circle>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.500;0.600;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+    <text x="800" y="214" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F2">Bastian Build · co-founder</text>
+    <text x="800" y="236" text-anchor="middle" font-size="15" font-weight="400" fill="#C7C5C0">air-gapped reliability tooling</text>
+  </g>
+  <text x="1130" y="124" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">2026</text>
+  <circle cx="1130" cy="170" r="6" fill="#C9A876"><animate attributeName="r" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.550;0.630;1" values="0;0;6;6" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <circle cx="1130" cy="170" r="9" fill="none" stroke="#F5F5F2" stroke-opacity="0.5" stroke-width="1"></circle>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.650;0.750;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+    <text x="1130" y="214" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F2">Flinders AI top 5 of 1,000</text>
+    <text x="1130" y="236" text-anchor="middle" font-size="15" font-weight="400" fill="#C7C5C0">Databricks Hackbricks podium</text>
+  </g>
+  <text x="1460" y="124" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">2026 Q2</text>
+  <circle cx="1460" cy="170" r="6" fill="#C9A876"><animate attributeName="r" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.700;0.780;1" values="0;0;6;6" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <circle cx="1460" cy="170" r="9" fill="none" stroke="#F5F5F2" stroke-opacity="0.5" stroke-width="1"><animate attributeName="r" calcMode="spline" dur="5s" begin="2s" repeatCount="indefinite" keyTimes="0;0.5;1" values="9;11;9" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="2s" fill="freeze" keyTimes="0;0.800;0.900;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+    <text x="1460" y="214" text-anchor="middle" font-size="15" font-weight="400" fill="#F5F5F2">20 patent applications published</text>
+    <text x="1460" y="236" text-anchor="middle" font-size="15" font-weight="400" fill="#C7C5C0">scaling auth 1→5 campuses</text>
+  </g>
+</svg>
