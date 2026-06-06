@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" width="1600" height="420" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfTit"><stop offset="0" stop-color="#A8A29A" stop-opacity="0.08"/><stop offset="1" stop-color="#A8A29A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="barLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A876" stop-opacity="0.25"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.95"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.25"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+    <clipPath id="p0clip"><rect x="43.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p1clip"><rect x="197.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p2clip"><rect x="351.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p3clip"><rect x="505.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p4clip"><rect x="659.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p5clip"><rect x="813.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p6clip"><rect x="967.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p7clip"><rect x="1121.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p8clip"><rect x="1275.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p9clip"><rect x="1429.0" y="96" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p10clip"><rect x="43.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p11clip"><rect x="197.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p12clip"><rect x="351.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p13clip"><rect x="505.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p14clip"><rect x="659.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p15clip"><rect x="813.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p16clip"><rect x="967.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p17clip"><rect x="1121.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p18clip"><rect x="1275.0" y="216" width="128" height="96" rx="16"/></clipPath>
+    <clipPath id="p19clip"><rect x="1429.0" y="216" width="128" height="96" rx="16"/></clipPath>
+  </defs>
+  <rect width="1600" height="420" fill="#0E0E10"/>
+  <g filter="url(#blur55)">
+    <ellipse cx="420" cy="210" rx="460" ry="300" fill="url(#lfGold)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="22s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;40,18;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
+    <ellipse cx="1200" cy="210" rx="460" ry="300" fill="url(#lfMid)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;-40,-14;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
+  </g>
+  <g fill="#F5F5F2">
+    <circle cx="60" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="60" cy="360" r="1" opacity="0.045"><animate attributeName="opacity" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.045;0.07;0.045" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" additive="sum" calcMode="spline" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;8,0;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="360" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="800" cy="40" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  </g>
+  <text x="800" y="48" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#888780">PATENT FAMILY · PUBLISHED 2026 · INVENTOR: ROSHAN RAJ · APPLICANT: MAHE</text>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="43.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p0clip)">
+    <rect x="43.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 107.0 144.0)"><rect x="-297" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="59.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="107" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;01</text>
+  <rect x="104" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="197.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p1clip)">
+    <rect x="197.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 261.0 144.0)"><rect x="-143" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.3s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="213.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="261" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;02</text>
+  <rect x="258" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  <rect x="197.0" y="96" width="128" height="96" rx="16" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="0s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="351.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p2clip)">
+    <rect x="351.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 415.0 144.0)"><rect x="11" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.6s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="367.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="415" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;03</text>
+  <rect x="412" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.363;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.363;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="505.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p3clip)">
+    <rect x="505.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 569.0 144.0)"><rect x="165" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.9s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="521.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="569" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;04</text>
+  <rect x="566" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="659.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p4clip)">
+    <rect x="659.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 723.0 144.0)"><rect x="319" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.2s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="675.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="723" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;05</text>
+  <rect x="720" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  <rect x="659.0" y="96" width="128" height="96" rx="16" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="8s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.187;0.437;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.187;0.437;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="813.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p5clip)">
+    <rect x="813.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 877.0 144.0)"><rect x="473" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.5s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="829.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="877" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;06</text>
+  <rect x="874" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="967.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p6clip)">
+    <rect x="967.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1031.0 144.0)"><rect x="627" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.8s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="983.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1031" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;07</text>
+  <rect x="1028" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.262;0.512;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.262;0.512;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1121.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p7clip)">
+    <rect x="1121.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1185.0 144.0)"><rect x="781" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="2.1s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1137.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1185" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;08</text>
+  <rect x="1182" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  <rect x="1121.0" y="96" width="128" height="96" rx="16" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="12s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.300;0.550;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.300;0.550;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1275.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p8clip)">
+    <rect x="1275.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1339.0 144.0)"><rect x="935" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="2.4s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1291.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1339" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;09</text>
+  <rect x="1336" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.338;0.588;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.338;0.588;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1429.0" y="96" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p9clip)">
+    <rect x="1429.0" y="96" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1493.0 144.0)"><rect x="1089" y="38" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="2.7s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1445.0" y="96.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1493" y="140" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;10</text>
+  <rect x="1490" y="156" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="43.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p10clip)">
+    <rect x="43.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 107.0 264.0)"><rect x="-297" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="3.0s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="59.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="107" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;11</text>
+  <rect x="104" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="197.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p11clip)">
+    <rect x="197.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 261.0 264.0)"><rect x="-143" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="3.3s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="213.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="261" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;12</text>
+  <rect x="258" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="351.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p12clip)">
+    <rect x="351.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 415.0 264.0)"><rect x="11" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="3.6s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="367.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="415" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;13</text>
+  <rect x="412" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  <rect x="351.0" y="216" width="128" height="96" rx="16" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="16s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.363;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.363;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="505.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p13clip)">
+    <rect x="505.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 569.0 264.0)"><rect x="165" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="3.9s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="521.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="569" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;14</text>
+  <rect x="566" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="659.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p14clip)">
+    <rect x="659.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 723.0 264.0)"><rect x="319" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="4.2s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="675.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="723" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;15</text>
+  <rect x="720" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.187;0.437;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.187;0.437;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="813.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p15clip)">
+    <rect x="813.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 877.0 264.0)"><rect x="473" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="4.5s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="829.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="877" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;16</text>
+  <rect x="874" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="967.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p16clip)">
+    <rect x="967.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1031.0 264.0)"><rect x="627" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="4.8s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="983.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1031" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;17</text>
+  <rect x="1028" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.262;0.512;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.262;0.512;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1121.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p17clip)">
+    <rect x="1121.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1185.0 264.0)"><rect x="781" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="5.1s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1137.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1185" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;18</text>
+  <rect x="1182" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  <rect x="1121.0" y="216" width="128" height="96" rx="16" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="4s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.300;0.550;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.300;0.550;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1275.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p18clip)">
+    <rect x="1275.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1339.0 264.0)"><rect x="935" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="5.4s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1291.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1339" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;19</text>
+  <rect x="1336" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.338;0.588;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.338;0.588;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
+  <rect x="1429.0" y="216" width="128" height="96" rx="16" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#p19clip)">
+    <rect x="1429.0" y="216" width="128" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1493.0 264.0)"><rect x="1089" y="158" width="280" height="211" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="5.7s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;528,0;528,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1445.0" y="216.5" width="96" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1493" y="260" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#C9A876">IN · &#8470;20</text>
+  <rect x="1490" y="276" width="6" height="6" rx="1" fill="#C9A876"/>
+  </g>
+  <text x="800" y="396" text-anchor="middle" font-size="18" font-weight="400" fill="#C7C5C0">One invention. Twenty claims on how attendance works.</text>
+</svg>

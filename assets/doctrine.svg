@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" width="1600" height="300" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfTit"><stop offset="0" stop-color="#A8A29A" stop-opacity="0.08"/><stop offset="1" stop-color="#A8A29A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="barLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A876" stop-opacity="0.25"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.95"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.25"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+    <clipPath id="dc0"><rect x="0" y="0" width="1600" height="300"><animate attributeName="width" calcMode="spline" dur="2.4s" fill="freeze" keyTimes="0;0.000;0.300;1" values="0;0;1600;1600" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/></rect></clipPath>
+    <clipPath id="dc1"><rect x="0" y="0" width="1600" height="300"><animate attributeName="width" calcMode="spline" dur="2.4s" fill="freeze" keyTimes="0;0.167;0.467;1" values="0;0;1600;1600" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/></rect></clipPath>
+    <clipPath id="dc2"><rect x="0" y="0" width="1600" height="300"><animate attributeName="width" calcMode="spline" dur="2.4s" fill="freeze" keyTimes="0;0.333;0.633;1" values="0;0;1600;1600" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/></rect></clipPath>
+    <clipPath id="dc3"><rect x="0" y="0" width="1600" height="300"><animate attributeName="width" calcMode="spline" dur="2.4s" fill="freeze" keyTimes="0;0.500;0.800;1" values="0;0;1600;1600" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/></rect></clipPath>
+  </defs>
+  <rect width="1600" height="300" fill="#0E0E10"/>
+  <g clip-path="url(#dc0)"><text x="800" y="90" text-anchor="middle" font-size="26" font-weight="400" fill="#F5F5F2">Material before colour.</text></g>
+  <g clip-path="url(#dc1)"><text x="800" y="146" text-anchor="middle" font-size="26" font-weight="400" fill="#F5F5F2">Light before motion.</text></g>
+  <g clip-path="url(#dc2)"><text x="800" y="202" text-anchor="middle" font-size="26" font-weight="400" fill="#F5F5F2">Volume before flatness.</text></g>
+  <g clip-path="url(#dc3)"><text x="800" y="258" text-anchor="middle" font-size="26" font-weight="400" fill="#F5F5F2">Stillness before movement<tspan fill="#F5F5F2">.<animate attributeName="fill" to="#C9A876" begin="3.4s" dur="0.6s" fill="freeze"/></tspan></text></g>
+</svg>
