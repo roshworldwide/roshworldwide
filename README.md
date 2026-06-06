@@ -38,9 +38,7 @@ discipline     python · c/c++ · sql · bash · git
 
 ### // TELEMETRY
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=roshworldwide&bg_color=0E0E10&title_color=C9A876&icon_color=8E8B85&text_color=C7C5C0&hide_border=true&hide_rank=true&include_all_commits=true&count_private=true" alt="Contribution stats">
-</p>
+<img src="assets/stats.svg" width="100%">
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshworldwide&bg_color=0E0E10&color=8E8B85&line=C9A876&point=F5F5F2&hide_border=true&area=false&custom_title=Shipping%20cadence" alt="Shipping cadence">
