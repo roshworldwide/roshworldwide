@@ -1,21 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 280" width="1600" height="280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
-  <rect width="1600" height="280" fill="#0E0E10"/>
-  <rect x="0" y="1" width="1600" height="1" fill="#F5F5F2" fill-opacity="0.06"/>
-
-  <!-- Decastar (titanium) — receding watermark -->
-  <g transform="translate(800 80) scale(0.221)" fill="#8E8B85" opacity="0.35">
-    <polygon points="0,-100 14,-51 0,-8 -14,-51"/>
-    <polygon points="95.11,-30.9 52.83,-2.45 7.61,-2.47 44.18,-29.07"/>
-    <polygon points="58.78,80.9 18.65,49.49 4.7,6.47 41.3,33.03"/>
-    <polygon points="-58.78,80.9 -41.3,33.03 -4.7,6.47 -18.65,49.49"/>
-    <polygon points="-95.11,-30.9 -44.18,-29.07 -7.61,-2.47 -52.83,-2.45"/>
-    <polygon points="38.21,-52.59 25.87,-22 5.29,-7.28 12.92,-31.4"/>
-    <polygon points="61.82,20.09 28.91,17.81 8.56,2.78 33.86,2.59"/>
-    <polygon points="0,65 -8,33 0,9 8,33"/>
-    <polygon points="-61.82,20.09 -33.86,2.59 -8.56,2.78 -28.91,17.81"/>
-    <polygon points="-38.21,-52.59 -12.92,-31.4 -5.29,-7.28 -25.87,-22"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" width="1600" height="300" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfTit"><stop offset="0" stop-color="#A8A29A" stop-opacity="0.08"/><stop offset="1" stop-color="#A8A29A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+    <clipPath id="ftclip"><rect x="0" y="0" width="1600" height="300" rx="0"/></clipPath>
+  </defs>
+  <rect width="1600" height="300" fill="#0E0E10"/>
+  <g filter="url(#blur55)" opacity="0.5">
+    <ellipse cx="800" cy="120" rx="520" ry="280" fill="url(#lfGold)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="22s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;40,16;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
+    <ellipse cx="1100" cy="220" rx="440" ry="260" fill="url(#lfMid)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;-40,-12;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
   </g>
-
-  <text x="800" y="172" text-anchor="middle" font-size="26" font-weight="500" fill="#F5F5F2">Most engineers list skills. Deployments are listed here.</text>
-  <text x="800" y="228" text-anchor="middle" font-family="'SF Mono', ui-monospace, 'JetBrains Mono', Menlo, monospace" font-size="12" letter-spacing="1" fill="#888780">roshworldwide.com · bengaluru · est. 2026</text>
+  <g transform="translate(800 92) scale(0.243)" opacity="0.3">
+    <g fill="#8E8B85">
+      <polygon points="0,-100 14,-51 0,-8 -14,-51"/>
+      <polygon points="95.11,-30.9 52.83,-2.45 7.61,-2.47 44.18,-29.07"/>
+      <polygon points="58.78,80.9 18.65,49.49 4.7,6.47 41.3,33.03"/>
+      <polygon points="-58.78,80.9 -41.3,33.03 -4.7,6.47 -18.65,49.49"/>
+      <polygon points="-95.11,-30.9 -44.18,-29.07 -7.61,-2.47 -52.83,-2.45"/>
+      <polygon points="38.21,-52.59 25.87,-22 5.29,-7.28 12.92,-31.4"/>
+      <polygon points="61.82,20.09 28.91,17.81 8.56,2.78 33.86,2.59"/>
+      <polygon points="0,65 -8,33 0,9 8,33"/>
+      <polygon points="-61.82,20.09 -33.86,2.59 -8.56,2.78 -28.91,17.81"/>
+      <polygon points="-38.21,-52.59 -12.92,-31.4 -5.29,-7.28 -25.87,-22"/>
+    </g>
+    <mask id="gl80092">
+      <polygon points="0,-100 14,-51 0,-8 -14,-51" fill="#ffffff"/>
+      <polygon points="95.11,-30.9 52.83,-2.45 7.61,-2.47 44.18,-29.07" fill="#ffffff"/>
+      <polygon points="58.78,80.9 18.65,49.49 4.7,6.47 41.3,33.03" fill="#ffffff"/>
+      <polygon points="-58.78,80.9 -41.3,33.03 -4.7,6.47 -18.65,49.49" fill="#ffffff"/>
+      <polygon points="-95.11,-30.9 -44.18,-29.07 -7.61,-2.47 -52.83,-2.45" fill="#ffffff"/>
+      <polygon points="38.21,-52.59 25.87,-22 5.29,-7.28 12.92,-31.4" fill="#ffffff"/>
+      <polygon points="61.82,20.09 28.91,17.81 8.56,2.78 33.86,2.59" fill="#ffffff"/>
+      <polygon points="0,65 -8,33 0,9 8,33" fill="#ffffff"/>
+      <polygon points="-61.82,20.09 -33.86,2.59 -8.56,2.78 -28.91,17.81" fill="#ffffff"/>
+      <polygon points="-38.21,-52.59 -12.92,-31.4 -5.29,-7.28 -25.87,-22" fill="#ffffff"/>
+    </mask>
+    <g mask="url(#gl80092)"><rect x="-150" y="-130" width="55" height="260" fill="url(#glintBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="18s" begin="0s" repeatCount="indefinite" keyTimes="0;0.45;1" values="0,0;300,0;300,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <text x="800" y="190" text-anchor="middle" font-size="28" font-weight="500" fill="#F5F5F2">Most engineers list skills. Deployments are listed here.</text>
+  <text x="800" y="236" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="1" fill="#888780">roshworldwide.com · bengaluru · est. 2026</text>
 </svg>
