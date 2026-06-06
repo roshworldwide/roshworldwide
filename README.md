@@ -1,63 +1,37 @@
 <img src="assets/hero.svg" width="100%">
 
-<p align="center"><code>roshan@roshworldwide.com</code> · <code>linkedin.com/in/roshworldwide</code> · <code>x.com/roshworldwide</code> · <code>roshworldwide.com</code></p>
+<img src="assets/contact.svg" width="100%">
+
+<p align="center"><sub><a href="mailto:roshan@roshworldwide.com">roshan@roshworldwide.com</a> · <a href="https://linkedin.com/in/roshworldwide">linkedin.com/in/roshworldwide</a> · <a href="https://x.com/roshworldwide">x.com/roshworldwide</a> · <a href="https://roshworldwide.com">roshworldwide.com</a> · <a href="https://instagram.com/roshworldwide">instagram.com/roshworldwide</a> · <a href="https://youtube.com/@roshworldwide">youtube.com/@roshworldwide</a></sub></p>
 
 <img src="assets/rule.svg" width="100%">
 
-### // SITREP
+### // PROOF
 
-<img src="assets/sitrep.svg" width="100%">
-
-<img src="assets/rule.svg" width="100%">
-
-### // OPERATING LOOP
-
-<img src="assets/loop.svg" width="100%">
+<img src="assets/proof.svg" width="100%">
 
 <img src="assets/rule.svg" width="100%">
 
-### // SYSTEMS
+### // ABOUT
 
-<a href="https://github.com/roshworldwide/acoustic-ams"><img src="assets/system-1.svg" width="100%"></a>
-<a href="https://github.com/roshworldwide/onprem-sre-engine"><img src="assets/system-2.svg" width="100%"></a>
-<a href="https://github.com/roshworldwide/quant-lens"><img src="assets/system-3.svg" width="100%"></a>
-<a href="https://github.com/roshworldwide/finance-os"><img src="assets/system-4.svg" width="100%"></a>
+<img src="assets/about.svg" width="100%">
 
 <img src="assets/rule.svg" width="100%">
 
 ### // PATENT WALL
 
-<img src="assets/patents.svg" width="100%">
+<img src="assets/patent-wall.svg" width="100%">
 
 <img src="assets/rule.svg" width="100%">
 
-### // RECORD
-
-<img src="assets/record.svg" width="100%">
-
-<img src="assets/rule.svg" width="100%">
-
-### // DOCTRINE
-
-<img src="assets/doctrine.svg" width="100%">
-
-<img src="assets/rule.svg" width="100%">
-
-### // INSTRUMENTS
-
-```
-intelligence   pytorch · mlx · transformers · lora · 4-bit quantization
-               catboost · xgboost · lightgbm · shap · optuna
-systems        kubernetes · docker · postgres · supabase · node · vercel
-               air-gapped deployment
-interface      swift · swiftui · metal · react · next.js · typescript
-discipline     python · c/c++ · sql · bash · git
-```
-
-<img src="assets/rule.svg" width="100%">
-
-### // TELEMETRY
+### // LIVE
 
 <img src="assets/stats.svg" width="100%">
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshworldwide&bg_color=0E0E10&color=8E8B85&line=C9A876&point=C9A876&hide_border=true&area=true&area_color=C9A876&custom_title=Contribution%20activity" alt="Contribution activity">
+</p>
+
+<p align="center"><sub><code>LIVE FEED · UPDATES WITH EVERY COMMIT · NO MANUAL UPKEEP</code></sub></p>
 
 <img src="assets/footer.svg" width="100%">
