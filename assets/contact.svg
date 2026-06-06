@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 128" width="1600" height="128" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="sonar"><stop offset="0" stop-color="#C9A876" stop-opacity="0"/><stop offset="0.7" stop-color="#C9A876" stop-opacity="0"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.4"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="goldNum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBD6A8"/><stop offset="1" stop-color="#B8965F"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1600" height="128" fill="#0E0E10"/>
+  <g fill="#F5F5F2">
+    <circle cx="60" cy="30" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="30" r="1" opacity="0.045"><animate attributeName="opacity" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.045;0.07;0.045" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" additive="sum" calcMode="spline" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;8,0;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="60" cy="100" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+    <circle cx="1540" cy="100" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
+  </g>
+  <rect x="4" y="40" width="253" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="20.299999999999955" y="57.0" width="18" height="14" rx="2.5"/><path d="M20.299999999999955,59.0 L29.299999999999955,66.0 L38.299999999999955,59.0"/></g>
+  <text x="50" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">roshan@roshworldwide.com</text>
+  <rect x="275" y="40" width="291" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="291.09999999999997" y="55.0" width="18" height="18" rx="3"/></g><text x="300.09999999999997" y="68.0" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif" font-size="11" font-weight="600" fill="#C9A876">in</text>
+  <text x="321" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">linkedin.com/in/roshworldwide</text>
+  <rect x="584" y="40" width="214" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M602.4,57.0 L616.4,71.0 M616.4,57.0 L602.4,71.0"/></g>
+  <text x="630" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">x.com/roshworldwide</text>
+  <rect x="817" y="40" width="199" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="841.7" cy="64.0" r="9"/><ellipse cx="841.7" cy="64.0" rx="4" ry="9"/><path d="M832.7,64.0 H850.7"/></g>
+  <text x="863" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">roshworldwide.com</text>
+  <rect x="1034" y="40" width="276" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="1049.6000000000001" y="55.0" width="18" height="18" rx="5"/><circle cx="1058.6000000000001" cy="64.0" r="4.5"/><circle cx="1063.6000000000001" cy="59.0" r="0.9" fill="#C9A876"/></g>
+  <text x="1080" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">instagram.com/roshworldwide</text>
+  <rect x="1328" y="40" width="268" height="48" rx="24.0" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g stroke="#C9A876" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="1342.5" y="57.0" width="20" height="14" rx="4"/><path d="M1349.5,60.5 L1357.5,64.0 L1349.5,67.5 Z" fill="#C9A876" stroke="none"/></g>
+  <text x="1374" y="68" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="0.3" fill="#C7C5C0">youtube.com/@roshworldwide</text>
+</svg>
