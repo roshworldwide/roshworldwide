@@ -1,34 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 360" width="1600" height="360" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
-  <rect width="1600" height="360" fill="#0E0E10"/>
-
-  <!-- column separators (hairlines, not boxes) -->
-  <g fill="#F5F5F2" fill-opacity="0.06">
-    <rect x="320" y="110" width="1" height="150"/>
-    <rect x="640" y="110" width="1" height="150"/>
-    <rect x="960" y="110" width="1" height="150"/>
-    <rect x="1280" y="110" width="1" height="150"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="1600" height="400" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+  <defs>
+    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
+    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
+    <radialGradient id="lfTit"><stop offset="0" stop-color="#A8A29A" stop-opacity="0.08"/><stop offset="1" stop-color="#A8A29A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
+    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+    <clipPath id="st0clip"><rect x="40.0" y="50" width="284.8" height="300" rx="28"/></clipPath>
+    <clipPath id="st1clip"><rect x="348.8" y="50" width="284.8" height="300" rx="28"/></clipPath>
+    <clipPath id="st2clip"><rect x="657.6" y="50" width="284.8" height="300" rx="28"/></clipPath>
+    <clipPath id="st3clip"><rect x="966.4000000000001" y="50" width="284.8" height="300" rx="28"/></clipPath>
+    <clipPath id="st4clip"><rect x="1275.2" y="50" width="284.8" height="300" rx="28"/></clipPath>
+  </defs>
+  <rect width="1600" height="400" fill="#0E0E10"/>
+  <g filter="url(#blur55)">
+    <ellipse cx="240" cy="200" rx="360" ry="260" fill="url(#lfGold)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="20s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;40,18;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
+    <ellipse cx="1360" cy="220" rx="380" ry="260" fill="url(#lfMid)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="22s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;-46,-14;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
   </g>
-
-  <!-- numbers -->
-  <g text-anchor="middle" font-size="72" font-weight="600">
-    <text x="160" y="178" fill="#C9A876">20</text>
-    <text x="480" y="178" fill="#F5F5F2">0</text>
-    <text x="800" y="178" fill="#F5F5F2">99.9</text>
-    <text x="1120" y="178" fill="#F5F5F2">4.45M</text>
-    <text x="1440" y="178" fill="#F5F5F2">120</text>
+  <rect x="40.0" y="50" width="284.8" height="300" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#st0clip)">
+    <rect x="40.0" y="50" width="284.8" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 182.4 200.0)"><rect x="-300.0" y="-130" width="280" height="660" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;684.8,0;684.8,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
   </g>
-
-  <!-- captions -->
-  <g text-anchor="middle" font-family="'SF Mono', ui-monospace, 'JetBrains Mono', Menlo, monospace" font-size="12" letter-spacing="2" fill="#888780">
-    <text x="160" y="222">PATENT APPLICATIONS</text>
-    <text x="160" y="242">PUBLISHED · INVENTOR</text>
-    <text x="480" y="222">BYTES OUTBOUND</text>
-    <text x="480" y="242">14B LLM · AIR-GAPPED</text>
-    <text x="800" y="222">PERCENT UPTIME</text>
-    <text x="800" y="242">CAMPUS-WIDE AUTH</text>
-    <text x="1120" y="222">MARKET ROWS</text>
-    <text x="1120" y="242">160-DAY WALK-FORWARD</text>
-    <text x="1440" y="222">FPS · LOCKED</text>
-    <text x="1440" y="242">METAL RENDERING</text>
+  <rect x="68.0" y="50.5" width="228.8" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="182" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#C9A876">20</text>
+  <mask id="stg0"><text x="182" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#fff">20</text></mask>
+  <g mask="url(#stg0)"><rect x="112" y="120" width="34" height="110" fill="url(#glintBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;160,0;160,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  <text x="182" y="255" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">PATENT APPLICATIONS</text>
+  <text x="182" y="275" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">PUBLISHED · INVENTOR</text>
+  <rect x="348.8" y="50" width="284.8" height="300" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#st1clip)">
+    <rect x="348.8" y="50" width="284.8" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 491.20000000000005 200.0)"><rect x="8.800000000000011" y="-130" width="280" height="660" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="1.6s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;684.8,0;684.8,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
   </g>
+  <rect x="376.8" y="50.5" width="228.8" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="491" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#F5F5F2">0</text>
+  <text x="491" y="255" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">BYTES OUTBOUND</text>
+  <text x="491" y="275" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">14B LLM · AIR-GAPPED</text>
+  <rect x="657.6" y="50" width="284.8" height="300" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#st2clip)">
+    <rect x="657.6" y="50" width="284.8" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 800.0 200.0)"><rect x="317.6" y="-130" width="280" height="660" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="3.2s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;684.8,0;684.8,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="685.6" y="50.5" width="228.8" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="800" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#F5F5F2">99.9</text>
+  <text x="800" y="255" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">PERCENT UPTIME</text>
+  <text x="800" y="275" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">CAMPUS-WIDE AUTH</text>
+  <rect x="966.4000000000001" y="50" width="284.8" height="300" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#st3clip)">
+    <rect x="966.4000000000001" y="50" width="284.8" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1108.8000000000002 200.0)"><rect x="626.4000000000001" y="-130" width="280" height="660" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="4.8s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;684.8,0;684.8,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="994.4000000000001" y="50.5" width="228.8" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1109" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#F5F5F2">4.45M</text>
+  <text x="1109" y="255" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">MARKET ROWS</text>
+  <text x="1109" y="275" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">160-DAY WALK-FORWARD</text>
+  <rect x="1275.2" y="50" width="284.8" height="300" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
+  <g clip-path="url(#st4clip)">
+    <rect x="1275.2" y="50" width="284.8" height="12" fill="url(#topGlow)"/>
+    <g transform="rotate(20 1417.6000000000001 200.0)"><rect x="935.2" y="-130" width="280" height="660" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="6.4s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;684.8,0;684.8,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
+  </g>
+  <rect x="1303.2" y="50.5" width="228.8" height="1.5" fill="url(#edgeGrad)"/>
+  <text x="1418" y="200" text-anchor="middle" font-size="76" font-weight="600" fill="#F5F5F2">120</text>
+  <text x="1418" y="255" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">FPS · LOCKED</text>
+  <text x="1418" y="275" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">METAL RENDERING</text>
 </svg>
