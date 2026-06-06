@@ -2,8 +2,6 @@
 
 <img src="assets/contact.svg" width="100%">
 
-<p align="center"><sub><a href="mailto:roshan@roshworldwide.com">roshan@roshworldwide.com</a> · <a href="https://linkedin.com/in/roshworldwide">linkedin.com/in/roshworldwide</a> · <a href="https://x.com/roshworldwide">x.com/roshworldwide</a> · <a href="https://roshworldwide.com">roshworldwide.com</a> · <a href="https://instagram.com/roshworldwide">instagram.com/roshworldwide</a> · <a href="https://youtube.com/@roshworldwide">youtube.com/@roshworldwide</a></sub></p>
-
 <img src="assets/rule.svg" width="100%">
 
 ### // PROOF
