@@ -20,8 +20,6 @@
 
 <img src="assets/rule.svg" width="100%">
 
-<img src="assets/stats.svg" width="100%">
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshworldwide&bg_color=0E0E10&color=8E8B85&line=C9A876&point=C9A876&hide_border=true&area=true&area_color=C9A876&hide_title=true" alt="GitHub activity">
 </p>
