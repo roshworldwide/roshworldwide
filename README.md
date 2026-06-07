@@ -27,3 +27,5 @@
 </p>
 
 <p align="center"><sub><code>LIVE FEED · UPDATES WITH EVERY COMMIT · NO MANUAL UPKEEP</code></sub></p>
+
+<img src="assets/footer.svg" width="100%">
