@@ -36,7 +36,7 @@
   <text x="130" y="156" font-size="34" font-weight="600" letter-spacing="-1" fill="#F5F5F2">The world runs on fragile systems.</text>
   <text x="130" y="200" font-size="34" font-weight="600" letter-spacing="-1" fill="#F5F5F2">I build the engines that replace them.</text>
   <text x="130" y="250" font-size="19" font-weight="400" fill="#C7C5C0">Zero-latency financial networks. Acoustic authentication that</text>
-  <text x="130" y="280" font-size="19" font-weight="400" fill="#C7C5C0">cannot be spoofed — 20 patent applications, deployed across a</text>
+  <text x="130" y="280" font-size="19" font-weight="400" fill="#C7C5C0">cannot be spoofed — 7 patent applications, deployed across a</text>
   <text x="130" y="310" font-size="19" font-weight="400" fill="#C7C5C0">campus at 99.9% uptime. A 14-billion-parameter model that</text>
   <text x="130" y="340" font-size="19" font-weight="400" fill="#C7C5C0">diagnoses and fixes servers with zero bytes leaving the machine.</text>
   <text x="130" y="370" font-size="19" font-weight="400" fill="#C7C5C0">My work lives where failure is not an option.</text>
@@ -47,7 +47,7 @@
   <text x="130" y="544" font-size="19" font-weight="400" fill="#C7C5C0">pitch.</text>
   <text x="130" y="598" font-size="19" font-weight="400" fill="#C7C5C0">Computer science at Manipal, Bengaluru, Class of '27. Co-founder</text>
   <text x="130" y="628" font-size="19" font-weight="400" fill="#C7C5C0">of an air-gapped infrastructure company. Inventor of record on</text>
-  <text x="130" y="658" font-size="19" font-weight="400" fill="#C7C5C0">20 published patent applications. Different domains, one rule:</text>
+  <text x="130" y="658" font-size="19" font-weight="400" fill="#C7C5C0">7 patent applications, filed. Different domains, one rule:</text>
   <text x="130" y="688" font-size="19" font-weight="400" fill="#C7C5C0">ship to production, measure everything, send nothing home.</text>
   <rect x="660" y="770" width="280" height="2" rx="1" fill="#C9A876" fill-opacity="0.55"/>
   <text x="800" y="800" text-anchor="middle" font-size="22" font-weight="600" fill="#F5F5F2">That standard is Engineered by RoSh.</text>
@@ -64,7 +64,7 @@
   <text x="1490" y="406" text-anchor="end" font-size="15" font-weight="400" fill="#F5F5F2">Manipal · CS '27</text>
   <rect x="1040" y="424" width="450" height="1" fill="#F5F5F2" fill-opacity="0.06"/>
   <text x="1040" y="458" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#888780">PATENTS</text>
-  <text x="1490" y="458" text-anchor="end" font-size="15" font-weight="400" fill="#F5F5F2">20 applications · published</text>
+  <text x="1490" y="458" text-anchor="end" font-size="15" font-weight="400" fill="#F5F5F2">7 applications · filed</text>
   <rect x="1040" y="476" width="450" height="1" fill="#F5F5F2" fill-opacity="0.06"/>
   <text x="1040" y="510" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="1.5" fill="#888780">VENTURES</text>
   <text x="1490" y="510" text-anchor="end" font-size="15" font-weight="400" fill="#F5F5F2">Co-founder · Bastian Build</text>

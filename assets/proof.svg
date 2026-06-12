@@ -38,9 +38,9 @@
   </g>
   <rect x="68.0" y="30.5" width="306.0" height="1.5" fill="url(#edgeGrad)"/>
   <path d="M68.0,30 H374.0 A28,28 0 0 1 402.0,58 V332 A28,28 0 0 1 374.0,360 H68.0 A28,28 0 0 1 40.0,332 V58 A28,28 0 0 1 68.0,30 Z" fill="none" stroke="#C9A876" stroke-opacity="0.45" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="140 1195.9"><animate attributeName="stroke-dashoffset" calcMode="linear" dur="14s" repeatCount="indefinite" values="0;-1335.9"/></path>
-  <text x="221" y="208" text-anchor="middle" font-size="88" font-weight="600" fill="url(#goldNum)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="0.6s" begin="0.0s" fill="freeze" keyTimes="0;1" values="0,-8;0,0" keySplines="0.5 0 0.1 1"/>20</text>
-  <text x="221" y="270" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#C7C5C0">PATENTS</text>
-  <text x="221" y="292" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">PUBLISHED · INVENTOR</text>
+  <text x="221" y="208" text-anchor="middle" font-size="88" font-weight="600" fill="url(#goldNum)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="0.6s" begin="0.0s" fill="freeze" keyTimes="0;1" values="0,-8;0,0" keySplines="0.5 0 0.1 1"/>7</text>
+  <text x="221" y="270" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#C7C5C0">PATENT FILINGS</text>
+  <text x="221" y="292" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">ROSHAN RAJ · INVENTOR</text>
   </g><animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" dur="9s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.5;1" values="1;1.004;1" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></g>
   <g transform="translate(607.0 195.0)"><g transform="translate(-607.0 -195.0)">
   <rect x="426.0" y="30" width="362.0" height="330" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
@@ -60,9 +60,9 @@
     <g transform="rotate(20 993.0 195.0)"><rect x="472" y="-168" width="280" height="726" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="8s" begin="3.2s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;762,0;762,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
   </g>
   <rect x="840.0" y="30.5" width="306.0" height="1.5" fill="url(#edgeGrad)"/>
-  <text x="993" y="208" text-anchor="middle" font-size="88" font-weight="600" fill="#F5F5F2"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="0.6s" begin="0.2s" fill="freeze" keyTimes="0;1" values="0,-8;0,0" keySplines="0.5 0 0.1 1"/>4</text>
-  <text x="993" y="270" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#C7C5C0">STARTUPS EXITED</text>
-  <text x="993" y="292" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">CASHED OUT</text>
+  <text x="993" y="208" text-anchor="middle" font-size="88" font-weight="600" fill="#F5F5F2"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="0.6s" begin="0.2s" fill="freeze" keyTimes="0;1" values="0,-8;0,0" keySplines="0.5 0 0.1 1"/>1</text>
+  <text x="993" y="270" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#C7C5C0">COMPANY</text>
+  <text x="993" y="292" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="2" fill="#888780">CO-FOUNDED</text>
   </g><animateTransform attributeName="transform" type="scale" additive="sum" calcMode="spline" dur="9s" begin="3.6s" repeatCount="indefinite" keyTimes="0;0.5;1" values="1;1.004;1" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></g>
   <g transform="translate(1379.0 195.0)"><g transform="translate(-1379.0 -195.0)">
   <rect x="1198.0" y="30" width="362.0" height="330" rx="28" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
