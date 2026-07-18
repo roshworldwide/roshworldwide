@@ -8,7 +8,6 @@
   <a href="mailto:roshan@roshworldwide.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-roshan%40roshworldwide.com-C9A876?style=flat&labelColor=0B0B0D&logo=maildotru&logoColor=C9A876"></a>
   <a href="https://www.linkedin.com/in/roshworldwide"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-in%2Froshworldwide-C9A876?style=flat&labelColor=0B0B0D&logo=linkedin&logoColor=C9A876"></a>
   <a href="https://github.com/roshworldwide"><img alt="GitHub" src="https://img.shields.io/badge/GITHUB-roshworldwide-C9A876?style=flat&labelColor=0B0B0D&logo=github&logoColor=C9A876"></a>
-  <img alt="Open to senior / infra roles" src="https://img.shields.io/badge/●_OPEN_TO-SENIOR%20%2F%20INFRA%20ROLES-0B0B0D?style=flat&labelColor=C9A876">
 </p>
 
 <img src="assets/proof.svg" width="100%" alt="Proof — 7 patent filings · 2 hackathons won · 1 company co-founded · 10+ industrial projects to ship in 2026.">
