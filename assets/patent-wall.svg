@@ -1,123 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" width="1600" height="600" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" width="1600" height="720" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Patent wall. Seven patent applications filed in 2026. 01 Acoustic Proximity Authentication. 02 Negative-Latency Collaborative Editing. 03 Semantic Clipboard. 04 Privacy-Preserving Crash Reproduction. 05 On-Device Pre-Update Regression Certification. 06 Unified Fidelity-Budget Scheduler. 07 Dynamically Morphing Ergonomic Keyboard.">
   <defs>
-    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
-    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
-    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
-    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
-    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
-    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
-    <radialGradient id="sonar"><stop offset="0" stop-color="#C9A876" stop-opacity="0"/><stop offset="0.7" stop-color="#C9A876" stop-opacity="0"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.4"/></radialGradient>
-    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
-    <linearGradient id="goldNum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBD6A8"/><stop offset="1" stop-color="#B8965F"/></linearGradient>
-    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
-    <clipPath id="pwclip"><rect x="40" y="20" width="1520" height="560" rx="36"/></clipPath>
-    <clipPath id="c0clip"><rect x="320.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c1clip"><rect x="460.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c2clip"><rect x="600.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c3clip"><rect x="740.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c4clip"><rect x="880.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c5clip"><rect x="1020.0" y="380" width="120" height="82" rx="14"/></clipPath>
-    <clipPath id="c6clip"><rect x="1160.0" y="380" width="120" height="82" rx="14"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B0B0D"/><stop offset="1" stop-color="#0A0A0C"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#F0DDA9"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#9E7E52"/></linearGradient>
+    <linearGradient id="goldH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E8D4A2"/><stop offset="1" stop-color="#B7935F"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0.5" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.04"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.01"/></linearGradient>
+    <linearGradient id="spec" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9A876" stop-opacity="0.4"/><stop offset="0.5" stop-color="#C9A876" stop-opacity="0.05"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.18"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C9A876" stop-opacity="0.10"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
   </defs>
-  <rect width="1600" height="600" fill="#0E0E10"/>
-  <g filter="url(#blur55)">
-    <ellipse cx="440" cy="250" rx="460" ry="320" fill="url(#lfGold)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="22s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;40,18;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
-    <ellipse cx="1180" cy="250" rx="460" ry="320" fill="url(#lfMid)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;-40,-14;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
-  </g>
-  <g fill="#F5F5F2">
-    <circle cx="80" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="80" cy="540" r="1" opacity="0.045"><animate attributeName="opacity" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.045;0.07;0.045" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="1520" cy="60" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" additive="sum" calcMode="spline" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;8,0;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="1520" cy="540" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-  </g>
-  <rect x="40" y="20" width="1520" height="560" rx="36" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#pwclip)">
-    <rect x="40" y="20" width="1520" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 800.0 300.0)"><rect x="-300" y="-316" width="280" height="1232" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="12s" begin="0s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;1920,0;1920,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="76" y="20.5" width="1448" height="1.5" fill="url(#edgeGrad)"/>
-  <text x="800" y="80" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2" fill="#888780">PATENT PORTFOLIO · FILED 2026 · INVENTOR: ROSHAN RAJ · APPLICANT: MAHE</text>
-  <text x="600" y="248" text-anchor="end" font-size="150" font-weight="600" fill="url(#goldNum)">7</text>
-  <mask id="big20"><text x="600" y="248" text-anchor="end" font-size="150" font-weight="600" fill="#fff">7</text></mask>
-  <g mask="url(#big20)"><rect x="380" y="120" width="70" height="150" fill="url(#glintBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.45;1" values="0,0;260,0;260,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  <rect x="650" y="150" width="1" height="96" fill="#F5F5F2" fill-opacity="0.14"/>
-  <text x="700" y="190" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="13" letter-spacing="2" fill="#888780">PATENT APPLICATIONS · FILED</text>
-  <text x="700" y="228" font-size="20" font-weight="400" fill="#F5F5F2">Seven applications. Different domains — one rule: it cannot be spoofed.</text>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.000;0.250;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="320.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c0clip)">
-    <rect x="320.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 380.0 421.0)"><rect x="-20" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.0s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="334.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="371" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="380" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;01</text>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.037;0.287;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="460.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c1clip)">
-    <rect x="460.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 520.0 421.0)"><rect x="120" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.3s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="474.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="511" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="520" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;02</text>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.075;0.325;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="600.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c2clip)">
-    <rect x="600.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 660.0 421.0)"><rect x="260" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.6s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="614.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="651" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="660" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;03</text>
-  <rect x="600.0" y="380" width="120" height="82" rx="14" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="8s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.362;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.112;0.362;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="740.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c3clip)">
-    <rect x="740.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 800.0 421.0)"><rect x="400" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="0.9s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="754.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="791" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="800" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;04</text>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.150;0.400;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="880.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c4clip)">
-    <rect x="880.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 940.0 421.0)"><rect x="540" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.2s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="894.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="931" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="940" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;05</text>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.188;0.438;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.188;0.438;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="1020.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c5clip)">
-    <rect x="1020.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 1080.0 421.0)"><rect x="680" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.5s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="1034.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="1071" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="1080" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#8E8B85">IN · &#8470;06</text>
-  <rect x="1020.0" y="380" width="120" height="82" rx="14" fill="none" stroke="#C9A876" stroke-width="1" stroke-opacity="0"><animate attributeName="stroke-opacity" calcMode="spline" dur="20s" begin="4s" repeatCount="indefinite" keyTimes="0;0.06;0.12;1" values="0;0.5;0;0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1;0.5 0 0.1 1"/></rect>
-  </g>
-  <g opacity="1"><animate attributeName="opacity" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0;0;1;1" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="1.6s" fill="freeze" keyTimes="0;0.225;0.475;1" values="0,8;0,8;0,0;0,0" keySplines="0.5 0 0.1 1;0.32 0.72 0 1;0.5 0 0.1 1"/>
-  <rect x="1160.0" y="380" width="120" height="82" rx="14" fill="#1F1F22" fill-opacity="0.52" stroke="#F5F5F2" stroke-opacity="0.14" stroke-width="1"/>
-  <g clip-path="url(#c6clip)">
-    <rect x="1160.0" y="380" width="120" height="12" fill="url(#topGlow)"/>
-    <g transform="rotate(20 1220.0 421.0)"><rect x="820" y="331" width="280" height="180" fill="url(#specBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="9s" begin="1.8s" repeatCount="indefinite" keyTimes="0;0.4;1" values="0,0;520,0;520,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <rect x="1174.0" y="380.5" width="92" height="1.5" fill="url(#edgeGrad)"/>
-  <rect x="1157.0" y="377" width="126" height="88" rx="17" fill="none" stroke="#C9A876" stroke-opacity="0.5" stroke-width="1.5"/>
-  <rect x="1211" y="410" width="18" height="3" rx="1.5" fill="#C9A876"/>
-  <text x="1220" y="438" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" letter-spacing="1" fill="#C9A876">IN · &#8470;07</text>
+  <rect width="1600" height="720" fill="url(#bg)"/>
+  <ellipse cx="300" cy="260" rx="480" ry="320" fill="url(#glow)"/>
+  <rect width="1600" height="720" filter="url(#grain)" opacity="0.04"/>
+
+  <!-- header -->
+  <text x="64" y="70" font-size="23" font-weight="700" letter-spacing="1"><tspan fill="#C9A876">// </tspan><tspan fill="#F2F1EC">PATENT WALL</tspan></text>
+  <line x1="300" y1="63" x2="1400" y2="63" stroke="#26241E" stroke-width="1"/>
+  <text x="1536" y="68" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.6" fill="#837F77">SEVEN · FILED · UNSPOOFABLE</text>
+
+  <!-- panel -->
+  <rect x="48" y="100" width="1504" height="576" rx="26" fill="url(#card)"/>
+  <rect x="48.6" y="100.6" width="1502.8" height="574.8" rx="25.4" fill="none" stroke="url(#spec)" stroke-width="1.2"/>
+
+  <!-- registry caption -->
+  <text x="104" y="152" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="12.5" letter-spacing="2.8" fill="#9A7F55">PATENT PORTFOLIO · FILED 2026 · INVENTOR: ROSHAN RAJ · APPLICANT: MAHE</text>
+
+  <!-- big count + statement -->
+  <text x="104" y="248" font-size="82" font-weight="800" letter-spacing="-3" fill="url(#gold)">7</text>
+  <line x1="214" y1="188" x2="214" y2="244" stroke="#3A382F" stroke-width="1.4"/>
+  <text x="248" y="212" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="13" letter-spacing="2.6" fill="#C9A876">PATENT APPLICATIONS · FILED</text>
+  <text x="248" y="240" font-size="19" font-weight="500" fill="#B7B3AA">Different domains — one rule: <tspan fill="#EDECE7" font-weight="650">it cannot be spoofed.</tspan></text>
+
+  <line x1="104" y1="286" x2="1448" y2="286" stroke="#211F1A" stroke-width="1"/>
+
+  <!-- 7-row registry -->
+  <g>
+    <!-- row -->
+    <g transform="translate(0,326)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">01</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Acoustic Proximity Authentication</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">AUTHENTICATION</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,374)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">02</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Negative-Latency Collaborative Editing</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">COLLABORATION</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,422)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">03</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Semantic Clipboard</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">INTERACTION</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,470)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">04</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Privacy-Preserving Crash Reproduction</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">PRIVACY</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,518)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">05</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">On-Device Pre-Update Regression Certification</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">RELIABILITY</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,566)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">06</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Unified Fidelity-Budget Scheduler</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">SCHEDULING</text>
+      <line x1="104" y1="20" x2="1448" y2="20" stroke="#1C1B17"/>
+    </g>
+    <g transform="translate(0,614)">
+      <text x="104" y="0" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="14" letter-spacing="1" fill="url(#goldH)">07</text>
+      <text x="170" y="0" font-size="19.5" font-weight="600" fill="#EDECE7">Dynamically Morphing Ergonomic Keyboard</text>
+      <text x="1448" y="0" text-anchor="end" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11.5" letter-spacing="2.4" fill="#7C786F">HARDWARE · HCI</text>
+    </g>
   </g>
 </svg>

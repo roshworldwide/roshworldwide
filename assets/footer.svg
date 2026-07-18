@@ -1,57 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 156" width="1600" height="156" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter Tight', system-ui, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 200" width="1600" height="200" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Engineered by RoSh. All rights reserved, all wrongs reversed.">
   <defs>
-    <filter id="blur55" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="55"/></filter>
-    <filter id="blur70" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="70"/></filter>
-    <radialGradient id="lfGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
-    <radialGradient id="lfMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.18"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
-    <radialGradient id="auGold"><stop offset="0" stop-color="#C9A876" stop-opacity="0.08"/><stop offset="1" stop-color="#C9A876" stop-opacity="0"/></radialGradient>
-    <radialGradient id="auMid"><stop offset="0" stop-color="#1A2332" stop-opacity="0.14"/><stop offset="1" stop-color="#1A2332" stop-opacity="0"/></radialGradient>
-    <radialGradient id="sonar"><stop offset="0" stop-color="#C9A876" stop-opacity="0"/><stop offset="0.7" stop-color="#C9A876" stop-opacity="0"/><stop offset="1" stop-color="#C9A876" stop-opacity="0.4"/></radialGradient>
-    <linearGradient id="specBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="topGlow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-    <linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-100" y1="-100" x2="100" y2="100"><stop offset="0" stop-color="#EBD6A8"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#8A6D40"/></linearGradient>
-    <linearGradient id="goldNum" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBD6A8"/><stop offset="1" stop-color="#B8965F"/></linearGradient>
-    <linearGradient id="glintBand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EBD6A8" stop-opacity="0"/><stop offset="0.5" stop-color="#EBD6A8" stop-opacity="0.6"/><stop offset="1" stop-color="#EBD6A8" stop-opacity="0"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0A0C"/><stop offset="1" stop-color="#0B0B0D"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0DDA9"/><stop offset="0.5" stop-color="#C9A876"/><stop offset="1" stop-color="#9E7E52"/></linearGradient>
+    <linearGradient id="goldH" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E8D4A2"/><stop offset="1" stop-color="#B7935F"/></linearGradient>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
-  <rect width="1600" height="156" fill="#0E0E10"/>
-  <g filter="url(#blur55)" opacity="0.5">
-    <ellipse cx="800" cy="80" rx="520" ry="180" fill="url(#lfGold)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;30,8;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></ellipse>
+  <rect width="1600" height="200" fill="url(#bg)"/>
+  <line x1="0" y1="1" x2="1600" y2="1" stroke="#1C1B18" stroke-width="1"/>
+
+  <!-- contact strip -->
+  <text x="800" y="52" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="13" letter-spacing="1.4" fill="#9C988E">roshan@roshworldwide.com<tspan fill="#C9A876">   ·   </tspan>github.com/roshworldwide<tspan fill="#C9A876">   ·   </tspan>linkedin.com/in/roshworldwide<tspan fill="#C9A876">   ·   </tspan>roshworldwide.com</text>
+
+  <!-- mark -->
+  <g transform="translate(800,100)">
+    <path transform="scale(0.6)" d="M0,-40 L8,-13.86 L34.64,-20 L16,0 L34.64,20 L8,13.86 L0,40 L-8,13.86 L-34.64,20 L-16,0 L-34.64,-20 L-8,-13.86 Z" fill="url(#gold)" filter="url(#soft)" opacity="0.8"/>
+    <path transform="scale(0.6)" d="M0,-40 L8,-13.86 L34.64,-20 L16,0 L34.64,20 L8,13.86 L0,40 L-8,13.86 L-34.64,20 L-16,0 L-34.64,-20 L-8,-13.86 Z" fill="url(#gold)"/>
   </g>
-  <g fill="#F5F5F2">
-    <circle cx="120" cy="40" r="1" opacity="0.05"><animate attributeName="opacity" calcMode="spline" dur="9s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.05;0.075;0.05" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="1480" cy="40" r="1" opacity="0.045"><animate attributeName="opacity" calcMode="spline" dur="11s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.045;0.07;0.045" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/><animateTransform attributeName="transform" type="translate" additive="sum" calcMode="spline" dur="12s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0,0;8,0;0,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="300" cy="120" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="10s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-    <circle cx="1300" cy="120" r="1" opacity="0.04"><animate attributeName="opacity" calcMode="spline" dur="8s" repeatCount="indefinite" keyTimes="0;0.5;1" values="0.04;0.065;0.04" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></circle>
-  </g>
-  <g transform="translate(800 42) scale(0.215)">
-    <g fill="url(#shine)">
-      <polygon points="0,-100 14,-51 0,-8 -14,-51"/>
-      <polygon points="95.11,-30.9 52.83,-2.45 7.61,-2.47 44.18,-29.07"/>
-      <polygon points="58.78,80.9 18.65,49.49 4.7,6.47 41.3,33.03"/>
-      <polygon points="-58.78,80.9 -41.3,33.03 -4.7,6.47 -18.65,49.49"/>
-      <polygon points="-95.11,-30.9 -44.18,-29.07 -7.61,-2.47 -52.83,-2.45"/>
-      <polygon points="38.21,-52.59 25.87,-22 5.29,-7.28 12.92,-31.4"/>
-      <polygon points="61.82,20.09 28.91,17.81 8.56,2.78 33.86,2.59"/>
-      <polygon points="0,65 -8,33 0,9 8,33"/>
-      <polygon points="-61.82,20.09 -33.86,2.59 -8.56,2.78 -28.91,17.81"/>
-      <polygon points="-38.21,-52.59 -12.92,-31.4 -5.29,-7.28 -25.87,-22"/>
-    </g>
-    <mask id="gl80042">
-      <polygon points="0,-100 14,-51 0,-8 -14,-51" fill="#ffffff"/>
-      <polygon points="95.11,-30.9 52.83,-2.45 7.61,-2.47 44.18,-29.07" fill="#ffffff"/>
-      <polygon points="58.78,80.9 18.65,49.49 4.7,6.47 41.3,33.03" fill="#ffffff"/>
-      <polygon points="-58.78,80.9 -41.3,33.03 -4.7,6.47 -18.65,49.49" fill="#ffffff"/>
-      <polygon points="-95.11,-30.9 -44.18,-29.07 -7.61,-2.47 -52.83,-2.45" fill="#ffffff"/>
-      <polygon points="38.21,-52.59 25.87,-22 5.29,-7.28 12.92,-31.4" fill="#ffffff"/>
-      <polygon points="61.82,20.09 28.91,17.81 8.56,2.78 33.86,2.59" fill="#ffffff"/>
-      <polygon points="0,65 -8,33 0,9 8,33" fill="#ffffff"/>
-      <polygon points="-61.82,20.09 -33.86,2.59 -8.56,2.78 -28.91,17.81" fill="#ffffff"/>
-      <polygon points="-38.21,-52.59 -12.92,-31.4 -5.29,-7.28 -25.87,-22" fill="#ffffff"/>
-    </mask>
-    <g mask="url(#gl80042)"><rect x="-150" y="-130" width="55" height="260" fill="url(#glintBand)"><animateTransform attributeName="transform" type="translate" calcMode="spline" dur="16s" repeatCount="indefinite" keyTimes="0;0.45;1" values="0,0;300,0;300,0" keySplines="0.5 0 0.1 1;0.5 0 0.1 1"/></rect></g>
-  </g>
-  <text x="800" y="100" text-anchor="middle" font-size="28" font-weight="500" letter-spacing="-0.3" fill="#F5F5F2">Engineered By RoSh.</text>
-  <text x="800" y="134" text-anchor="middle" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="12" letter-spacing="2.5" fill="#888780">ALL RIGHTS RESERVED | ALL WRONGS REVERSED</text>
+
+  <text x="800" y="152" text-anchor="middle" font-size="18" font-weight="600" fill="#CFCCC3">Engineered By <tspan fill="url(#goldH)" font-weight="700">RoSh.</tspan></text>
+  <text x="800" y="180" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,monospace" font-size="11" letter-spacing="3" fill="#615E57">ALL RIGHTS RESERVED &#160;&#160;|&#160;&#160; ALL WRONGS REVERSED</text>
 </svg>
